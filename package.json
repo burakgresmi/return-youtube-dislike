@@ -1,0 +1,36 @@
+{
+  "name": "return-youtube-dislike",
+  "version": "2.0.0",
+  "description": "Chrome extension to return youtube dislikes",
+  "main": "ryd.content-script.js",
+  "scripts": {
+    "start": "echo To build for development, please use \"npm run dev\". To build for production, please use \"npm run build\".",
+    "dev": "webpack --mode=production --watch",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakgresmi/return-youtube-dislike.git"
+  },
+  "keywords": [
+    "youtube",
+    "dislike",
+    "return",
+    "extension"
+  ],
+  "author": "Burak Gökkaya",
+  "bugs": {
+    "url": "https://github.com/burakgresmi/return-youtube-dislike/issues"
+  },
+  "homepage": "https://github.com/burakgresmi/return-youtube-dislike#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.0",
+    "filemanager-webpack-plugin": "^6.1.7",
+    "webpack-cli": "^4.9.1"
+  }
+}
